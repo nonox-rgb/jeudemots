@@ -1,0 +1,39 @@
+body {
+    font-family: Zen Dots;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.succes {
+    color: green;
+}
+
+.erreur {
+    color: red;
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    transition: transform 0.5s ease;
+}
+
+button:hover {
+    transform: translateY(-4px);
+}
+
+.jeuprincipal {
+    text-align: center;
+}
+
+.jeu {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top : 20px;
+}
